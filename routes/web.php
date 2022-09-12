@@ -18,3 +18,6 @@ Route::get('/practice','PracticeController@index');
 Route::get('/gogolemap', function() {
     return view('/googlemap/googlemap.html');
 });
+Route::get('/csv','PracticeController@csv');
+Route::get('/test','PracticeController@ajax');
+Route::get('test2','PracticeController@test2');
